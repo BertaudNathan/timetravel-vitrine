@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+  --color-gold-50: #fdf9ef;
+  --color-gold-100: #f9f0d3;
+  --color-gold-200: #f2dfa5;
+  --color-gold-300: #e9c96e;
+  --color-gold-400: #e2b63f;
+  --color-gold-500: #d4a026;
+  --color-gold-600: #b87d1c;
+  --color-gold-700: #985c1a;
+  --color-gold-800: #7d4a1d;
+  --color-gold-900: #6a3e1e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 4px;
+}
+.chat-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+.chat-messages::-webkit-scrollbar-thumb {
+  background: var(--color-gold-700);
+  border-radius: 2px;
+}
