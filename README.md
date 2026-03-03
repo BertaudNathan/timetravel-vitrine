@@ -2,6 +2,8 @@
 
 Webapp vitrine pour une agence de voyages temporels fictive, conçue et itérée entièrement avec des outils d'IA générative.
 
+## Deploiement sur Vercel : [https://timetravel-vitrine.vercel.app/](https://timetravel-vitrine.vercel.app/)
+
 ## 🛠️ Stack Technique
 
 | Couche | Technologie |
